@@ -32,7 +32,9 @@ public class CContarPalabras
      nlineas++;
    }
    System.out.println();
-   System.out.println(ncaracteres + " " + npalabras + " " + nlineas);
+   System.out.println("numeros de caracteres es igual" + ncaracteres );
+  System.out.println( "numeros de palabras es igual" + npalabras );
+  System.out.println("numeros de lineas es igual" + nlineas);
   }
   catch(IOException ignorada){}
  }   
