@@ -7,7 +7,7 @@ public class CContarPalabras
   final char eof = (char) - 1;
   char car;
   boolean palabra = false;
-  int ncaracteres = 0, npalabras = 0, nlineas = 0, totalA=0;
+  int ncaracteres = 0, npalabras = 0, nlineas = 0, 
   
   try
   {
@@ -30,14 +30,14 @@ public class CContarPalabras
     }
     if (car == '\n')//Finaliza una linea
      nlineas++;
- if (car == 'a' || car == 'A')//cuenta letras A
-     totalA++;
+ //if (car == 'a' || car == 'A')//cuenta letras A
+ //    totalA++;
    }
    System.out.println();
    System.out.println("numeros de caracteres es igual" + ncaracteres );
   System.out.println( "numeros de palabras es igual" + npalabras );
   System.out.println("numeros de lineas es igual" + nlineas);
- System.out.prinln ("el numero total de letras A es" + totalA"); 
+ 
 }
   catch(IOException ignorada){}
  }   
